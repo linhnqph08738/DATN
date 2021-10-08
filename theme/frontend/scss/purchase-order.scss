@@ -1,0 +1,153 @@
+@import "base";
+@import "function";
+@import "keyframe";
+@import "var";
+.acctive {
+  color: #f22222 !important;
+}
+.my-account {
+  padding: 90px 0;
+  .cate-account {
+    background: #ffffff;
+    border: 1px solid #c1aaaa;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    .name {
+      .images {
+        padding-right: 15px;
+        img {
+          min-width: 86px;
+          border-radius: 50%;
+          max-height: 86px;
+        }
+      }
+      .title {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 25px;
+        /* identical to box height */
+
+        color: #000000;
+      }
+    }
+  }
+  .list-cateaccount {
+    .card {
+      .card-header {
+        background-color: #ffffff;
+      }
+      .highlight {
+        .icon-down {
+          transform: rotate(180deg);
+        }
+      }
+
+      .card-body {
+        padding: 15px !important;
+        ul {
+          padding-left: 15px;
+          li {
+            display: block;
+            padding-top: 15px;
+            a {
+              font-weight: 300;
+              font-size: 17px;
+              line-height: 20px;
+              /* identical to box height */
+
+              color: #000000;
+              &:hover {
+                color: #f22222;
+              }
+            }
+          }
+        }
+      }
+    }
+    .list-text {
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 20px;
+      color: #000000;
+      text-decoration: none;
+      .icon-user {
+        padding-right: 10px;
+      }
+      .icon-down {
+        float: right;
+      }
+      &:hover {
+        color: #f22222;
+      }
+    }
+    .t-lisst {
+      padding: 6px 12px;
+    }
+  }
+  .content-purchase {
+    background: #ffffff;
+    border: 1px solid #c1aaaa;
+    box-sizing: border-box;
+    .nav-tabs {
+      padding: 10px 0;
+      border-bottom: 1px solid #000000 !important;
+      .nav-link {
+        border: none;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+
+        color: #171616;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        &.active {
+          color: #f22222;
+        }
+      }
+    }
+    .tab-content {
+      .order-cand {
+        padding: 30px;
+        .p-content{
+            border: 1px solid;
+            padding: 20px 0;
+        }
+        .items {
+            padding: 20px 0;
+          .images-service {
+            padding-right: 20px;
+            img {
+              max-width: 100px;
+              max-height: 150px;
+            }
+          }
+          .iten-text {
+            .title {
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 18px;
+              color: #000000;
+            }
+            .note {
+              font-weight: 300;
+              font-size: 16px;
+              line-height: 14px;
+              /* identical to box height */
+
+              color: #000000;
+            }
+          }
+        }
+        .t-fle {
+          height: 100%;
+        }
+        .tf-3{
+            padding-left: 15px;
+        }
+      }
+    }
+  }
+}

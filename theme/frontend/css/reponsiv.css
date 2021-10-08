@@ -1,0 +1,374 @@
+@media (max-width: 1199.98px) {
+    .banner {
+        background-color: #ffffff;
+        margin: 100px 0 60px 0;
+    }
+    .banner .banner-content {
+        width: 100%;
+        margin-top: 49px;
+    }
+    .banner .content {
+        padding-bottom: 110px;
+    }
+    .banner .bn-title {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .banner .bn-sub {
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #5a5a5a;
+    }
+    .banner .bn-btn {
+        margin-top: 40px;
+    }
+    .banner .banner-container {
+        width: 500px;
+        height: 400px;
+        margin-right: 40px;
+    }
+    .banner .banner-container .bn-images_1 {
+        position: absolute;
+        width: 250px;
+        height: 350px;
+        top: -43px;
+        right: -40px;
+    }
+    .banner .banner-container .bn-images_2 {
+        position: absolute;
+        width: 550px;
+        height: 400px;
+        bottom: -60px;
+        left: -50px;
+        z-index: 1;
+        border-radius: 20px;
+        object-fit: contain;
+    }
+    .t-title {
+        font-size: 38px;
+    }
+    .news {
+        padding: 50px 0;
+    }
+    .news .content .item .s-item {
+        margin-left: 60px;
+    }
+    .news .content .item .s-item .title {
+        font-size: 30px;
+    }
+    .benefit .item .images {
+        margin-bottom: 24px;
+    }
+    .benefit .item .images img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+    .benefit .item .text {
+        margin-bottom: 12px;
+        font-size: 18px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1a1a1a;
+    }
+    .benefit .item .s-content {
+        margin-top: 12px;
+    }
+    .benefit .item:hover {
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
+    }
+    .product .images {
+        width: 100%;
+        height: 600px;
+    }
+    .product .swiper-container,
+    .product .swiper-wrapper,
+    .product .swiper-slide {
+        width: 100%;
+        height: 600px;
+    }
+    .product .content .title {
+        font-size: 20px;
+    }
+    .product .content .pro-ul {
+        margin-bottom: 20px;
+    }
+    .product .content .price .price-new {
+        font-size: 20px;
+    }
+    .product .content .price .price-odd {
+        margin-left: 16px;
+        font-size: 14px;
+    }
+    .product .content .detail .item {
+        padding-top: 24px;
+    }
+    .product .content .detail .btn-link {
+        font-size: 16px;
+    }
+    .product .content .detail .item-body {
+        padding-top: 15px;
+    }
+    .product .content .spr .btn-link {
+        font-size: 16px;
+    }
+    .product .content .sc {
+        font-size: 14px;
+    }
+    .product .content .time {
+        margin-top: 20px;
+    }
+    .product .content .time ul li {
+        width: 65px;
+    }
+    .product .content .time ul li .item .number {
+        font-size: 28px;
+    }
+    .product .content .bn-button {
+        width: 100%;
+    }
+    .product .content .bn-button .bn-btn {
+        margin-top: 14px;
+        padding: 12px 24px;
+    }
+    .insta-images .item .title {
+        font-size: 36px;
+    }
+    .insta-images .item .sub {
+        font-size: 14px;
+    }
+    .customers .item .sub {
+        font-size: 30px;
+    }
+    .information .text {
+        position: absolute;
+        top: 95px;
+        left: 550px;
+    }
+    .how .item .images .img_ {
+        min-height: 250px;
+        max-height: 250px;
+    }
+    .img-footer .time ul li {
+        width: 65px;
+    }
+    .img-footer .time ul li .item .number {
+        font-size: 28px;
+    }
+    .img-footer .bn-btn {
+        margin-top: 24px;
+        padding: 12px 14px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .banner .bn-title {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .banner .banner-content {
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+        padding-bottom: 40px;
+    }
+    .banner .bn-button {
+        margin: 0 auto;
+    }
+    .banner .banner-container {
+        float: none;
+        margin: 0 auto;
+    }
+    .t-title {
+        font-size: 36px;
+    }
+    .news .content .item:before {
+        display: none;
+    }
+    .news .content .item .s-item .title::before {
+        display: none;
+    }
+    .news .content .item .s-item {
+        margin-left: 0;
+    }
+    .benefit .item {
+        padding: 30px 20px;
+    }
+    .product .swiper-container,
+    .product .swiper-wrapper,
+    .product .swiper-slide {
+        height: 300px;
+    }
+    .product .images {
+        width: 100%;
+        height: 300px;
+    }
+    .product .content .bn-button .rectangle .r-icon .img_ {
+        width: 50px;
+        height: 30px;
+    }
+    .customers .item .sub {
+        width: 100%;
+    }
+    .information .text {
+        position: absolute;
+        top: 60px;
+        left: 365px;
+    }
+    .information .text .title {
+        font-size: 40px;
+    }
+    .how .item .images .img_ {
+        object-fit: fill;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .banner .banner-container {
+        border: none;
+        width: 100%;
+    }
+    .banner .banner-container .bn-images_1 {
+        display: none;
+    }
+    .banner .banner-container .bn-images_2 {
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        bottom: 0;
+        left: 0;
+    }
+    .product .swiper-container-vertical>.swiper-pagination-bullets {
+        left: 110px;
+    }
+    .banner .bn-title {
+        font-size: 40px;
+    }
+    .product .content .title {
+        font-size: 25px;
+    }
+    .product .time ul {
+        text-align: center;
+    }
+    .information .text {
+        position: absolute;
+        top: 25px;
+        left: 260px;
+    }
+    .img-footer .time {
+        text-align: center;
+    }
+    .information .text .title {
+        font-size: 30px;
+    }
+    .img-footer .bn-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .banner .banner-content {
+        padding-bottom: 0px;
+    }
+    .banner .content {
+        padding-bottom: 20px;
+    }
+    .t-title {
+        font-size: 28px;
+    }
+    .t-sub {
+        margin: 16px 0 20px 0;
+    }
+    .product .swiper-container-vertical>.swiper-pagination-bullets {
+        left: 40px;
+    }
+    .customers .item .sub {
+        font-size: 18px;
+    }
+    .information .text {
+        position: absolute;
+        top: 25px;
+        left: 150px;
+    }
+    .information .bn-button .bn-btn {
+        margin-top: 6px;
+        padding: 12px 40px;
+        font-size: 14px;
+    }
+    .information .text .title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 380px) {
+    .banner {
+        background-color: #ffffff;
+        margin: 60px 0 60px 0;
+    }
+    .banner .banner-container {
+        height: 300px;
+    }
+    .banner .banner-container .bn-images_2 {
+        height: 300px;
+    }
+    .t-title {
+        font-size: 25px;
+    }
+    .t-sub {
+        font-size: 14px;
+    }
+    .news .content .item .s-item .title {
+        font-size: 24px;
+    }
+    .information .text {
+        position: absolute;
+        top: 7px;
+        left: 100px;
+    }
+    .benefit {
+        padding: 50px 0;
+    }
+    .product {
+        background-color: #f9f9f9;
+        padding: 50px 0;
+    }
+    .insta-images {
+        margin: 50px 0;
+    }
+    .customers {
+        margin: 50px 0;
+    }
+    .how {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner .bn-title {
+        font-size: 32px;
+    }
+    .information .content {
+        position: relative;
+        height: 300px;
+    }
+    .information .content img {
+        object-fit: fill;
+        height: 300px;
+    }
+    .information .text {
+        position: absolute;
+        top: 80px;
+        left: 46px;
+    }
+}

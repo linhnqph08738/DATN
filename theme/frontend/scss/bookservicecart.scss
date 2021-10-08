@@ -1,0 +1,258 @@
+@import "base";
+@import "function";
+@import "keyframe";
+@import "var";
+
+.book-service {
+  padding: 40px 0;
+  .content {
+    background: #ffffff;
+    border: 1px solid #def0f9;
+    box-sizing: border-box;
+
+    table {
+      td {
+        vertical-align: inherit !important;
+      }
+      .item {
+        .images-service {
+          margin-right: 20px;
+          img {
+            max-width: 100px;
+            max-height: 150px;
+          }
+        }
+        .title {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 18px;
+          /* identical to box height */
+
+          color: #000000;
+        }
+        .note {
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 14px;
+          /* identical to box height */
+
+          color: #000000;
+        }
+      }
+      .total {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+        color: #000000;
+      }
+    }
+    .total-pet {
+      border-top: 1px solid #d9c5c5;
+      border-bottom: 1px solid #d9c5c5;
+      padding: 20px;
+      .text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        /* identical to box height */
+
+        color: #000000;
+      }
+      .number {
+        width: 50px;
+        text-align: center;
+        height: 40px;
+      }
+    }
+    .form-total {
+      padding: 30px 35px 30px 15px;
+      .total {
+        padding: 20px 0;
+        .text {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 23px;
+
+          color: #000000;
+        }
+        .number {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          /* identical to box height */
+
+          color: #000000;
+        }
+      }
+      .vourcher {
+        padding: 20px 0;
+        .title {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 23px;
+
+          color: #000000;
+        }
+        .form-inline {
+          padding-left: 30px;
+          input {
+            width: 386px;
+            height: 44px;
+          }
+        }
+      }
+      .t-booton {
+        form {
+          legend {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+
+            color: #000000;
+          }
+          .form-check {
+            padding-left: 2.5rem !important;
+          }
+        }
+        .money-service {
+          .title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+
+            color: #000000;
+          }
+          .number {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 20px;
+            /* identical to box height */
+
+            color: #000000;
+          }
+        }
+        .voucher {
+          .title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+
+            color: #000000;
+          }
+          .number {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 20px;
+            /* identical to box height */
+
+            color: #000000;
+          }
+        }
+        .t-total{
+            .title {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 23px;
+    
+                color: #000000;
+              }
+              .number {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 26px;
+                /* identical to box height */
+                
+                
+                color: #E21212;
+                
+              }
+        }
+      }
+    }
+  }
+}
+
+.hot-service {
+  padding: 40px 0;
+  .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+  .content {
+    padding-top: 30px;
+    .item {
+      padding: 30px;
+      background: #ffffff;
+      border: 1px solid #dcd6d6;
+      box-sizing: border-box;
+      text-align: center;
+      .title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+
+        color: #000000;
+      }
+      .price {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 41px;
+        color: #000000;
+        border-bottom: 2px solid #000000;
+        margin: 25px 70px;
+        padding-bottom: 25px;
+      }
+      .time {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 41px;
+        color: #000000;
+        border-bottom: 2px solid #000000;
+        margin: 10px 70px;
+        padding-bottom: 15px;
+      }
+      .s-content {
+        padding-top: 10px;
+      }
+      .button-book {
+        padding-top: 15px;
+        i {
+          font-size: 24px;
+          color: #79b6d0;
+        }
+        .bright {
+          font-size: 16px;
+          font-weight: 400;
+          background-color: #80bdff !important;
+          color: #ffffff !important;
+          &:hover {
+            background-color: #ffffff !important;
+            color: #80bdff !important;
+          }
+        }
+      }
+    }
+  }
+}

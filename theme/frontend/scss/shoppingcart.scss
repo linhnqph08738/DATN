@@ -1,0 +1,201 @@
+@import "base";
+@import "function";
+@import "keyframe";
+@import "var";
+
+.your-service {
+  padding: 50px 0;
+  .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 20px;
+    color: #000000;
+  }
+  .border-table {
+    border: 1px solid #def0f9;
+    box-sizing: border-box;
+    background: #ffffff;
+    th {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 23px;
+
+      color: #000000;
+    }
+    td {
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+      /* identical to box height */
+
+      color: #000000;
+      .btn-i {
+        padding-right: 15px;
+        border: none;
+        &:hover {
+          background-color: #80bdff;
+        }
+      }
+    }
+    .total {
+      font-weight: 500;
+    }
+  }
+  .content-btn {
+    padding-top: 20px;
+    .btn-left {
+      .bleft {
+        font-size: 16px;
+        font-weight: 400;
+        &:hover {
+          background-color: #80bdff;
+        }
+      }
+    }
+    .btn-right {
+      .bright {
+        font-size: 16px;
+        font-weight: 400;
+        background-color: #80bdff !important;
+        color: #ffffff !important;
+        &:hover {
+          background-color: #ffffff !important;
+          color: #80bdff !important;
+        }
+      }
+    }
+  }
+  .note {
+    background: #f7f5fe;
+    border: 1px solid #e8e7e7;
+    box-sizing: border-box;
+    .top {
+      background-color: #ffffff;
+      padding: 15px;
+      .text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+
+        color: #000000;
+      }
+    }
+    .note-form {
+      padding: 30px;
+      .note-total {
+        padding-bottom: 20px;
+        .text {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 22px;
+          line-height: 26px;
+          /* identical to box height */
+
+          color: #000000;
+        }
+        .number {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 22px;
+          line-height: 26px;
+          /* identical to box height */
+
+          color: #000000;
+        }
+      }
+      .t-label {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 15px;
+
+        color: #000000;
+      }
+      .bright {
+        font-size: 16px;
+        font-weight: 400;
+        background-color: #80bdff !important;
+        color: #ffffff !important;
+        padding: 10px 30px;
+        &:hover {
+          background-color: #ffffff !important;
+          color: #80bdff !important;
+        }
+      }
+    }
+  }
+}
+.hot-service {
+  padding: 40px 0;
+  .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+  .content {
+    padding-top: 30px;
+    .item {
+      padding: 30px;
+      background: #ffffff;
+      border: 1px solid #dcd6d6;
+      box-sizing: border-box;
+      text-align: center;
+      .title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+
+        color: #000000;
+      }
+      .price {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 41px;
+        color: #000000;
+        border-bottom: 2px solid #000000;
+        margin: 25px 70px;
+        padding-bottom: 25px;
+    
+      }
+      .time{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 41px;
+        color: #000000;
+        border-bottom: 2px solid #000000;
+        margin: 10px 70px;
+        padding-bottom: 15px;  
+      }
+      .s-content{
+          padding-top: 10px;
+      }
+      .button-book{
+          padding-top: 15px;
+          i{
+              font-size: 24px;
+              color: #79B6D0;
+          }
+          .bright {
+            font-size: 16px;
+            font-weight: 400;
+            background-color: #80bdff !important;
+            color: #ffffff !important;
+            &:hover {
+              background-color: #ffffff !important;
+              color: #80bdff !important;
+            }
+          }
+      }
+    }
+  }
+}

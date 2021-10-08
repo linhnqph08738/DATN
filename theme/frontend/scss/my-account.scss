@@ -1,0 +1,225 @@
+@import "base";
+@import "function";
+@import "keyframe";
+@import "var";
+.acctive {
+  color: #f22222 !important;
+}
+.my-account {
+  padding: 90px 0;
+  .cate-account {
+    background: #ffffff;
+    border: 1px solid #c1aaaa;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    .name {
+      .images {
+        padding-right: 15px;
+        img {
+          min-width: 86px;
+          border-radius: 50%;
+          max-height: 86px;
+        }
+      }
+      .title {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 25px;
+        /* identical to box height */
+
+        color: #000000;
+      }
+    }
+  }
+  .list-cateaccount {
+    .card {
+      .card-header {
+        background-color: #ffffff;
+      }
+      .highlight {
+        .icon-down {
+          transform: rotate(180deg);
+        }
+      }
+
+      .card-body {
+        padding: 15px !important;
+        ul {
+          padding-left: 15px;
+          li {
+            display: block;
+            padding-top: 15px;
+            a {
+              font-weight: 300;
+              font-size: 17px;
+              line-height: 20px;
+              /* identical to box height */
+
+              color: #000000;
+              &:hover {
+                color: #f22222;
+              }
+            }
+          }
+        }
+      }
+    }
+    .list-text {
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 20px;
+      color: #000000;
+      text-decoration: none;
+      .icon-user {
+        padding-right: 10px;
+      }
+      .icon-down {
+        float: right;
+      }
+      &:hover {
+        color: #f22222;
+      }
+    }
+    .t-lisst {
+      padding: 6px 12px;
+    }
+  }
+  .content-account {
+    border: 1px solid #c1aaaa;
+    box-sizing: border-box;
+    .title-content {
+      padding: 32px 42px 18px 42px;
+
+      border-bottom: 1px solid #000000;
+      .text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 32px;
+        /* identical to box height */
+
+        color: #000000;
+      }
+      .sub {
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 26px;
+        /* identical to box height */
+
+        color: #000000;
+      }
+    }
+    .content-account-list {
+      padding: 32px 42px;
+      .item {
+        padding-top: 15px;
+        .t-text {
+          font-style: normal;
+          font-weight: 300;
+          font-size: 21px;
+          line-height: 25px;
+          /* identical to box height */
+
+          color: #000000;
+        }
+      }
+      .images {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-content: space-around;
+        .img {
+          min-width: 196px;
+          max-height: 197px;
+          border-radius: 50%;
+        }
+        .title {
+          padding-top: 15px;
+          font-weight: 300;
+          font-size: 27px;
+          line-height: 32px;
+          /* identical to box height */
+
+          color: #000000;
+        }
+        .input-file {
+          width: 33%;
+        }
+      }
+      .form-change {
+        label {
+          font-weight: 300;
+          font-size: 21px;
+          line-height: 25px;
+          /* identical to box height */
+
+          color: #000000;
+          width: 50%;
+        }
+        legend {
+          font-weight: 300;
+          font-size: 21px;
+          line-height: 25px;
+          /* identical to box height */
+
+          color: #000000;
+          width: 50%;
+        }
+      }
+    }
+  }
+  .pet-acc {
+    background: #ffffff;
+    border: 1px solid #c1aaaa;
+    box-sizing: border-box;
+    margin-top: 30px;
+    .title-pet {
+      padding: 32px 42px 18px 42px;
+      font-weight: 400;
+      font-size: 27px;
+      line-height: 32px;
+      /* identical to box height */
+      border-bottom: 0.5px solid #000000;
+      color: #000000;
+    }
+    .content-pet_acc {
+      .item-pet_acc {
+        padding: 32px 42px 18px 42px;
+        border-bottom: 1px solid #9b8d8d;
+        .name-pet_acc {
+          font-weight: 300;
+          font-size: 22px;
+          line-height: 26px;
+          /* identical to box height */
+
+          color: #000000;
+        }
+        .price-pet_acc {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          /* identical to box height */
+
+          color: #000000;
+        }
+        .date-pet_acc {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          /* identical to box height */
+
+          color: #000000;
+        }
+        .status-complete {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          /* identical to box height */
+
+          color: #fe1c32;
+        }
+      }
+    }
+  }
+}

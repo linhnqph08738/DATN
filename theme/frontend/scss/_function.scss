@@ -1,0 +1,17 @@
+	$coefficient: 0.625;
+	
+	@function cal($pixel) {
+		$result: $coefficient * $pixel / 10;
+		@return $result;
+	}
+	
+	@function fontsize($fontsize) {
+		$result: $coefficient * $fontsize / 10;
+		@return $result+$unit;
+	}
+	
+	$unit:rem;
+	@function rem($px) {
+		$result: $px / 16;
+		@return $result+$unit;
+	}

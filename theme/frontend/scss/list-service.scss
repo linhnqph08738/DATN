@@ -1,0 +1,110 @@
+@import "base";
+@import "function";
+@import "keyframe";
+@import "var";
+.banner {
+  .images {
+    img {
+      max-height: 800px;
+      vertical-align: middle;
+      -webkit-object-fit: cover;
+      -moz-object-fit: cover;
+      -ms-object-fit: cover;
+      -o-object-fit: cover;
+      object-fit: cover;
+    }
+  }
+  .banner-button-next {
+    right: 40px;
+  }
+  .banner-button-prev {
+    left: 40px;
+  }
+  .banner-pagination {
+    display: none;
+  }
+}
+.hot-service {
+  padding: 50px 0;
+  .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+    padding-bottom: 40px;
+  }
+  .content {
+    padding-top: 30px;
+    .item {
+      padding: 30px;
+      background: #ffffff;
+      border: 1px solid #dcd6d6;
+      box-sizing: border-box;
+      text-align: center;
+      .title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+
+        color: #000000;
+      }
+      .price {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 41px;
+        color: #000000;
+        border-bottom: 2px solid #000000;
+        margin: 25px 70px;
+        padding-bottom: 25px;
+      }
+      .time {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 41px;
+        color: #000000;
+        border-bottom: 2px solid #000000;
+        margin: 10px 70px;
+        padding-bottom: 15px;
+      }
+      .s-content {
+        padding-top: 10px;
+      }
+      .button-book {
+        padding-top: 15px;
+        i {
+          font-size: 24px;
+          color: #79b6d0;
+        }
+        .bright {
+          font-size: 16px;
+          font-weight: 400;
+          background-color: #80bdff !important;
+          color: #ffffff !important;
+          &:hover {
+            background-color: #ffffff !important;
+            color: #80bdff !important;
+          }
+        }
+      }
+    }
+  }
+}
+.banner-ft{
+    padding-bottom: 40px;
+    .images{
+        img{
+            max-height: 670px;
+            -webkit-object-fit: fill;
+    -moz-object-fit: fill;
+    -ms-object-fit: fill;
+    -o-object-fit: fill;
+    object-fit: fill;
+        }
+    }
+}

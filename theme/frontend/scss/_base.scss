@@ -1,0 +1,213 @@
+@mixin transition($val) {
+	-webkit-transition: $val;
+	-moz-transition: $val;
+	-ms-transition: $val;
+	-o-transition: $val;
+	transition: $val;
+}
+@mixin transitiond($val, $val2) {
+	-webkit-transition: $val, $val2;
+	-moz-transition: $val, $val2;
+	-ms-transition: $val, $val2;
+	-o-transition: $val, $val2;
+	transition: $val, $val2;
+}
+@mixin transition_delay($val) {
+	-webkit-transition-delay: $val;
+	-moz-transition-delay: $val;
+	-ms-transition-delay: $val;
+	-o-transition-delay: $val;
+	transition-delay: $val;
+}
+@mixin transition_duration($val) {
+	-webkit-transition-duration: $val;
+	-moz-transition-duration: $val;
+	-ms-transition-duration: $val;
+	-o-transition-duration: $val;
+	transition-duration: $val;
+}
+@mixin transition_timeing($val) {
+	-webkit-transition-timing-function: $val;
+	-moz-transition-timing-function: $val;
+	-ms-transition-timing-function: $val;
+	-o-transition-timing-function: $val;
+	transition-timing-function: $val;
+}
+@mixin smooth($val) {
+	-webkit-transition: all $val ease-in-out;
+	-moz-transition: all $val ease-in-out;
+	-o-transition: all $val ease-in-out;
+	-ms-transition: all $val ease-in-out;
+	transition: all $val ease-in-out;
+}
+
+@mixin animation($val) {
+	-webkit-animation: $val;
+	-moz-animation: $val;
+	-ms-animation: $val;
+	-o-animation: $val;
+	animation: $val;
+}
+@mixin animation_name($val) {
+	-webkit-animation-name: $val;
+	-moz-animation-name: $val;
+	-ms-animation-name: $val;
+	-o-animation-name: $val;
+	animation-name: $val;
+}
+@mixin animation_delay($val) {
+	-webkit-animation-delay: $val;
+	-moz-animation-delay: $val;
+	-ms-animation-delay: $val;
+	-o-animation-delay: $val;
+	animation-delay: $val;
+}
+@mixin animation_duration($val) {
+	-webkit-animation-duration: $val;
+	-moz-animation-duration: $val;
+	-ms-animation-duration: $val;
+	-o-animation-duration: $val;
+	animation-duration: $val;
+}
+@mixin animation_iteration($val) {
+	-webkit-animation-iteration-count: $val;
+	-moz-animation-iteration-count: $val;
+	-ms-animation-iteration-count: $val;
+	-o-animation-iteration-count: $val;
+	animation-iteration-count: $val;
+}
+@mixin animation_direction($val) {
+	-webkit-animation-direction: $val;
+	-moz-animation-direction: $val;
+	-ms-animation-direction: $val;
+	-o-animation-direction: $val;
+	animation-direction: $val;
+}
+@mixin animation_time($val) {
+	-webkit-animation-timing-function: $val;
+	-moz-animation-timing-function: $val;
+	-ms-animation-timing-function: $val;
+	-o-animation-timing-function: $val;
+	animation-timing-function: $val;
+}
+@mixin transform($val) {
+	-webkit-transform: $val;
+	-moz-transform: $val;
+	-o-transform: $val;
+	-ms-transform: $val;
+	transform: $val;
+}
+@mixin transformd($val, $val2) {
+	-webkit-transform: $val, $val2;
+	-moz-transform: $val, $val2;
+	-o-transform: $val, $val2;
+	-ms-transform: $val, $val2;
+	transform: $val, $val2;
+}
+@mixin origin($val) {
+	-webkit-transform-origin: $val;
+	-moz-transform-origin: $val;
+	-ms-transform-origin: $val;
+	-o-transform-origin: $val;
+	transform-origin: $val;
+}
+@mixin scale($val) {
+	-webkit-transform: scale($val);
+	-moz-transform: scale($val);
+	-o-transform: scale($val);
+	-ms-transform: scale($val);
+	transform: scale($val);
+}
+@mixin translate($val) {
+	-webkit-transform: translate($val);
+	-moz-transform: translate($val);
+	-o-transform: translate($val);
+	-ms-transform: translate($val);
+	transform: translate($val);
+}
+@mixin rotate($val) {
+	-webkit-transform: rotate($val);
+	-moz-transform: rotate($val);
+	-o-transform: rotate($val);
+	-ms-transform: rotate($val);
+	transform: rotate($val);
+}
+
+@mixin object_fit($val) {
+	-webkit-object-fit: $val;
+	-moz-object-fit: $val;
+	-ms-object-fit: $val;
+	-o-object-fit: $val;
+	object-fit: $val;
+}
+img {
+	max-width: 100%;
+	vertical-align: middle;
+	@include object_fit(cover);
+}
+
+@mixin absolute_($t, $r, $b, $l) {
+	position: absolute;
+	top: $t;
+	right: $r;
+	bottom: $b;
+	left: $l;
+}
+@mixin absolute($val) {
+	@include absolute_($val, $val, $val, $val);
+}
+.clearfix {
+	&:before,
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+@mixin c-img($val) {
+	display: block;
+	position: relative;
+	padding-top: $val;
+	img,
+	.bg {
+		@include absolute(0);
+		display: block;
+		width: 100%;
+		height: 100%;
+		border-radius: inherit;
+	}
+}
+@mixin mar($val) {
+	margin-left: $val;
+	margin-right: $val;
+}
+@mixin pad($val) {
+	padding-left: $val;
+	padding-right: $val;
+}
+@mixin line-camp($val) {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: $val;
+	-webkit-box-orient: vertical;
+}
+@mixin fullview($val) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+@mixin font-size($fontsize) {
+	font-size: fontsize($fontsize);
+}
+
+@mixin dropText($val) {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: $val;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
